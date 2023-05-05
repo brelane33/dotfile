@@ -1,0 +1,31 @@
+# Ignore everything
+*
+
+# Do not ignore
+# These files.
+!.gitignore
+!.gitconfig
+!.ackrc
+!.zshrc
+!.gitignore_global
+!.gitattributes_global
+!.travis.yml
+!.vimrc
+!README.md
+
+# Setup files
+!/nvim_crap.txt
+!/lets_do_a_setup.sh
+
+# Don't ignore the nvim stuff
+!.config/
+.config/*
+!.config/nvim
+.config/nvim/*
+.config/nvim/.git
+.config/nvim/.github
+!.config/nvim/init.lua
+!.config/nvim/config.ld
+!.config/nvim/user/
+
+
