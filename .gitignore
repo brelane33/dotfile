@@ -18,14 +18,8 @@
 !/lets_do_a_setup.sh
 
 # Don't ignore the nvim stuff
-!.config/
-.config/*
-!.config/nvim
-.config/nvim/*
-.config/nvim/.git
-.config/nvim/.github
-!.config/nvim/init.lua
-!.config/nvim/config.ld
-!.config/nvim/user/
-
+!/user_nvim
+!/user_nvim/*
+!/user_nvim/user
+!/user_nvim/user/*
 
